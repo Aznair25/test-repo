@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Aznair Manzoor",
+        "id": 25,
+        "email": "aznairmanzoor1@gmail.com",
+        "age": 22,
+        "skills": [
+            "ML",
+            "AI",
+            "Python"
+        ]
+    }
+]
