@@ -1,0 +1,279 @@
+{
+    "feed": {
+        "@xmlns": "http://www.w3.org/2005/Atom",
+        "link": {
+            "@href": "http://arxiv.org/api/query?search_query%3Dall%3Allm%26id_list%3D%26start%3D0%26max_results%3D5",
+            "@rel": "self",
+            "@type": "application/atom+xml"
+        },
+        "title": {
+            "@type": "html",
+            "#text": "ArXiv Query: search_query=all:llm&id_list=&start=0&max_results=5"
+        },
+        "id": "http://arxiv.org/api/d+ujZqtQwjsUM7RX5YZLjq26+lI",
+        "updated": "2025-03-11T00:00:00-04:00",
+        "opensearch:totalResults": {
+            "@xmlns:opensearch": "http://a9.com/-/spec/opensearch/1.1/",
+            "#text": "27999"
+        },
+        "opensearch:startIndex": {
+            "@xmlns:opensearch": "http://a9.com/-/spec/opensearch/1.1/",
+            "#text": "0"
+        },
+        "opensearch:itemsPerPage": {
+            "@xmlns:opensearch": "http://a9.com/-/spec/opensearch/1.1/",
+            "#text": "5"
+        },
+        "entry": [
+            {
+                "id": "http://arxiv.org/abs/2412.18022v1",
+                "updated": "2024-12-23T22:34:40Z",
+                "published": "2024-12-23T22:34:40Z",
+                "title": "Trustworthy and Efficient LLMs Meet Databases",
+                "summary": "In the rapidly evolving AI era with large language models (LLMs) at the core,\nmaking LLMs more trustworthy and efficient, especially in output generation\n(inference), has gained significant attention. This is to reduce plausible but\nfaulty LLM outputs (a.k.a hallucinations) and meet the highly increased\ninference demands. This tutorial explores such efforts and makes them\ntransparent to the database community. Understanding these efforts is essential\nin harnessing LLMs in database tasks and adapting database techniques to LLMs.\nFurthermore, we delve into the synergy between LLMs and databases, highlighting\nnew opportunities and challenges in their intersection. This tutorial aims to\nshare with database researchers and practitioners essential concepts and\nstrategies around LLMs, reduce the unfamiliarity of LLMs, and inspire joining\nin the intersection between LLMs and databases.",
+                "author": [
+                    {
+                        "name": "Kyoungmin Kim"
+                    },
+                    {
+                        "name": "Anastasia Ailamaki"
+                    }
+                ],
+                "link": [
+                    {
+                        "@href": "http://arxiv.org/abs/2412.18022v1",
+                        "@rel": "alternate",
+                        "@type": "text/html"
+                    },
+                    {
+                        "@title": "pdf",
+                        "@href": "http://arxiv.org/pdf/2412.18022v1",
+                        "@rel": "related",
+                        "@type": "application/pdf"
+                    }
+                ],
+                "arxiv:primary_category": {
+                    "@xmlns:arxiv": "http://arxiv.org/schemas/atom",
+                    "@term": "cs.DB",
+                    "@scheme": "http://arxiv.org/schemas/atom"
+                },
+                "category": [
+                    {
+                        "@term": "cs.DB",
+                        "@scheme": "http://arxiv.org/schemas/atom"
+                    },
+                    {
+                        "@term": "cs.AI",
+                        "@scheme": "http://arxiv.org/schemas/atom"
+                    }
+                ]
+            },
+            {
+                "id": "http://arxiv.org/abs/2406.10300v1",
+                "updated": "2024-06-13T21:32:56Z",
+                "published": "2024-06-13T21:32:56Z",
+                "title": "Large Language Models as Software Components: A Taxonomy for\n  LLM-Integrated Applications",
+                "summary": "Large Language Models (LLMs) have become widely adopted recently. Research\nexplores their use both as autonomous agents and as tools for software\nengineering. LLM-integrated applications, on the other hand, are software\nsystems that leverage an LLM to perform tasks that would otherwise be\nimpossible or require significant coding effort. While LLM-integrated\napplication engineering is emerging as new discipline, its terminology,\nconcepts and methods need to be established. This study provides a taxonomy for\nLLM-integrated applications, offering a framework for analyzing and describing\nthese systems. It also demonstrates various ways to utilize LLMs in\napplications, as well as options for implementing such integrations.\n  Following established methods, we analyze a sample of recent LLM-integrated\napplications to identify relevant dimensions. We evaluate the taxonomy by\napplying it to additional cases. This review shows that applications integrate\nLLMs in numerous ways for various purposes. Frequently, they comprise multiple\nLLM integrations, which we term ``LLM components''. To gain a clear\nunderstanding of an application's architecture, we examine each LLM component\nseparately. We identify thirteen dimensions along which to characterize an LLM\ncomponent, including the LLM skills leveraged, the format of the output, and\nmore. LLM-integrated applications are described as combinations of their LLM\ncomponents. We suggest a concise representation using feature vectors for\nvisualization.\n  The taxonomy is effective for describing LLM-integrated applications. It can\ncontribute to theory building in the nascent field of LLM-integrated\napplication engineering and aid in developing such systems. Researchers and\npractitioners explore numerous creative ways to leverage LLMs in applications.\nThough challenges persist, integrating LLMs may revolutionize the way software\nsystems are built.",
+                "author": {
+                    "name": "Irene Weber"
+                },
+                "link": [
+                    {
+                        "@href": "http://arxiv.org/abs/2406.10300v1",
+                        "@rel": "alternate",
+                        "@type": "text/html"
+                    },
+                    {
+                        "@title": "pdf",
+                        "@href": "http://arxiv.org/pdf/2406.10300v1",
+                        "@rel": "related",
+                        "@type": "application/pdf"
+                    }
+                ],
+                "arxiv:primary_category": {
+                    "@xmlns:arxiv": "http://arxiv.org/schemas/atom",
+                    "@term": "cs.SE",
+                    "@scheme": "http://arxiv.org/schemas/atom"
+                },
+                "category": [
+                    {
+                        "@term": "cs.SE",
+                        "@scheme": "http://arxiv.org/schemas/atom"
+                    },
+                    {
+                        "@term": "cs.CL",
+                        "@scheme": "http://arxiv.org/schemas/atom"
+                    },
+                    {
+                        "@term": "cs.LG",
+                        "@scheme": "http://arxiv.org/schemas/atom"
+                    },
+                    {
+                        "@term": "A.1; I.2.7; D.2.11",
+                        "@scheme": "http://arxiv.org/schemas/atom"
+                    }
+                ]
+            },
+            {
+                "id": "http://arxiv.org/abs/2405.19888v1",
+                "updated": "2024-05-30T09:46:36Z",
+                "published": "2024-05-30T09:46:36Z",
+                "title": "Parrot: Efficient Serving of LLM-based Applications with Semantic\n  Variable",
+                "summary": "The rise of large language models (LLMs) has enabled LLM-based applications\n(a.k.a. AI agents or co-pilots), a new software paradigm that combines the\nstrength of LLM and conventional software. Diverse LLM applications from\ndifferent tenants could design complex workflows using multiple LLM requests to\naccomplish one task. However, they have to use the over-simplified\nrequest-level API provided by today's public LLM services, losing essential\napplication-level information. Public LLM services have to blindly optimize\nindividual LLM requests, leading to sub-optimal end-to-end performance of LLM\napplications.\n  This paper introduces Parrot, an LLM service system that focuses on the\nend-to-end experience of LLM-based applications. Parrot proposes Semantic\nVariable, a unified abstraction to expose application-level knowledge to public\nLLM services. A Semantic Variable annotates an input/output variable in the\nprompt of a request, and creates the data pipeline when connecting multiple LLM\nrequests, providing a natural way to program LLM applications. Exposing\nSemantic Variables to the public LLM service allows it to perform conventional\ndata flow analysis to uncover the correlation across multiple LLM requests.\nThis correlation opens a brand-new optimization space for the end-to-end\nperformance of LLM-based applications. Extensive evaluations demonstrate that\nParrot can achieve up to an order-of-magnitude improvement for popular and\npractical use cases of LLM applications.",
+                "author": [
+                    {
+                        "name": "Chaofan Lin"
+                    },
+                    {
+                        "name": "Zhenhua Han"
+                    },
+                    {
+                        "name": "Chengruidong Zhang"
+                    },
+                    {
+                        "name": "Yuqing Yang"
+                    },
+                    {
+                        "name": "Fan Yang"
+                    },
+                    {
+                        "name": "Chen Chen"
+                    },
+                    {
+                        "name": "Lili Qiu"
+                    }
+                ],
+                "arxiv:comment": {
+                    "@xmlns:arxiv": "http://arxiv.org/schemas/atom",
+                    "#text": "To appear on USENIX OSDI 2024"
+                },
+                "link": [
+                    {
+                        "@href": "http://arxiv.org/abs/2405.19888v1",
+                        "@rel": "alternate",
+                        "@type": "text/html"
+                    },
+                    {
+                        "@title": "pdf",
+                        "@href": "http://arxiv.org/pdf/2405.19888v1",
+                        "@rel": "related",
+                        "@type": "application/pdf"
+                    }
+                ],
+                "arxiv:primary_category": {
+                    "@xmlns:arxiv": "http://arxiv.org/schemas/atom",
+                    "@term": "cs.LG",
+                    "@scheme": "http://arxiv.org/schemas/atom"
+                },
+                "category": [
+                    {
+                        "@term": "cs.LG",
+                        "@scheme": "http://arxiv.org/schemas/atom"
+                    },
+                    {
+                        "@term": "cs.AI",
+                        "@scheme": "http://arxiv.org/schemas/atom"
+                    }
+                ]
+            },
+            {
+                "id": "http://arxiv.org/abs/2411.15764v1",
+                "updated": "2024-11-24T09:24:04Z",
+                "published": "2024-11-24T09:24:04Z",
+                "title": "LLM Online Spatial-temporal Signal Reconstruction Under Noise",
+                "summary": "This work introduces the LLM Online Spatial-temporal Reconstruction (LLM-OSR)\nframework, which integrates Graph Signal Processing (GSP) and Large Language\nModels (LLMs) for online spatial-temporal signal reconstruction. The LLM-OSR\nutilizes a GSP-based spatial-temporal signal handler to enhance graph signals\nand employs LLMs to predict missing values based on spatiotemporal patterns.\nThe performance of LLM-OSR is evaluated on traffic and meteorological datasets\nunder varying Gaussian noise levels. Experimental results demonstrate that\nutilizing GPT-4-o mini within the LLM-OSR is accurate and robust under Gaussian\nnoise conditions. The limitations are discussed along with future research\ninsights, emphasizing the potential of combining GSP techniques with LLMs for\nsolving spatiotemporal prediction tasks.",
+                "author": [
+                    {
+                        "name": "Yi Yan"
+                    },
+                    {
+                        "name": "Dayu Qin"
+                    },
+                    {
+                        "name": "Ercan Engin Kuruoglu"
+                    }
+                ],
+                "link": [
+                    {
+                        "@href": "http://arxiv.org/abs/2411.15764v1",
+                        "@rel": "alternate",
+                        "@type": "text/html"
+                    },
+                    {
+                        "@title": "pdf",
+                        "@href": "http://arxiv.org/pdf/2411.15764v1",
+                        "@rel": "related",
+                        "@type": "application/pdf"
+                    }
+                ],
+                "arxiv:primary_category": {
+                    "@xmlns:arxiv": "http://arxiv.org/schemas/atom",
+                    "@term": "cs.LG",
+                    "@scheme": "http://arxiv.org/schemas/atom"
+                },
+                "category": [
+                    {
+                        "@term": "cs.LG",
+                        "@scheme": "http://arxiv.org/schemas/atom"
+                    },
+                    {
+                        "@term": "eess.SP",
+                        "@scheme": "http://arxiv.org/schemas/atom"
+                    }
+                ]
+            },
+            {
+                "id": "http://arxiv.org/abs/2501.08579v1",
+                "updated": "2025-01-15T04:59:49Z",
+                "published": "2025-01-15T04:59:49Z",
+                "title": "What Limits LLM-based Human Simulation: LLMs or Our Design?",
+                "summary": "We argue that advancing LLM-based human simulation requires addressing both\nLLM's inherent limitations and simulation framework design challenges. Recent\nstudies have revealed significant gaps between LLM-based human simulations and\nreal-world observations, highlighting these dual challenges. To address these\ngaps, we present a comprehensive analysis of LLM limitations and our design\nissues, proposing targeted solutions for both aspects. Furthermore, we explore\nfuture directions that address both challenges simultaneously, particularly in\ndata collection, LLM generation, and evaluation. To support further research in\nthis field, we provide a curated collection of LLM-based human simulation\nresources.\\footnote{https://github.com/Persdre/llm-human-simulation}",
+                "author": [
+                    {
+                        "name": "Qian Wang"
+                    },
+                    {
+                        "name": "Jiaying Wu"
+                    },
+                    {
+                        "name": "Zhenheng Tang"
+                    },
+                    {
+                        "name": "Bingqiao Luo"
+                    },
+                    {
+                        "name": "Nuo Chen"
+                    },
+                    {
+                        "name": "Wei Chen"
+                    },
+                    {
+                        "name": "Bingsheng He"
+                    }
+                ],
+                "link": [
+                    {
+                        "@href": "http://arxiv.org/abs/2501.08579v1",
+                        "@rel": "alternate",
+                        "@type": "text/html"
+                    },
+                    {
+                        "@title": "pdf",
+                        "@href": "http://arxiv.org/pdf/2501.08579v1",
+                        "@rel": "related",
+                        "@type": "application/pdf"
+                    }
+                ],
+                "arxiv:primary_category": {
+                    "@xmlns:arxiv": "http://arxiv.org/schemas/atom",
+                    "@term": "cs.CL",
+                    "@scheme": "http://arxiv.org/schemas/atom"
+                },
+                "category": {
+                    "@term": "cs.CL",
+                    "@scheme": "http://arxiv.org/schemas/atom"
+                }
+            }
+        ]
+    }
+}
