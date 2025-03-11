@@ -2,7 +2,6 @@ import urllib,urllib.request
 import xmltodict
 import json
 count=0
-in_count=0
 user_input= input("Enter the topic name: ")
 l=user_input.split(" ")
 user_input="+".join(l)
@@ -22,10 +21,12 @@ with open("research.json","r") as json_file:
         title=data["feed"]["entry"][count]["title"]
         print(f"Paper # {count+1}")
         print(f"Title of the Paper: {title}")
-        for index in range(len(data["feed"]["entry"][count]["author"])): 
-            #author_name=
-            print(f"Author : {data["feed"]["entry"][count]["author"][index]["name"]}")
-            
+        author=data["feed"]["entry"][count]["author"]
+        if isinstance(author,list):
+            for index in range(len(author)): 
+                print(f"Author : {author[index]["name"]}")
+        else:
+            print(f"Author: {author["name"]}")
         summary=data["feed"]["entry"][count]["summary"]
         print(f"Summary: {summary}")
         count+=1
